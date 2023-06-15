@@ -1,0 +1,48 @@
+body {
+  position: relative;
+  margin: 0;
+}
+
+header, main, footer {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+main {
+  width: 800px;
+  height: 90vh;
+  margin: 0 auto;
+
+}
+
+
+div {
+  box-sizing: border-box;    
+}
+
+
+#simple-chat {
+  height: 300px;
+  border-bottom: 1px solid gray;
+}
+
+#chat-message {
+  width: 300px;
+}
+
+#chat-username {
+  width: 80px;
+}
+
+#modal {
+  width: 200px;
+  height: 200px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-color: gray;
+
+  visibility: hidden;
+}
